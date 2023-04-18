@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import axios from 'axios';
+import { Footer } from "../Footer";
 // import Loader from './../Loader/Loader';
 import "../LoginRegister/Login.css";
 
@@ -128,6 +129,7 @@ const Register = () => {
         //     )
         //   } */}
         </div>
+        <Footer/>
         </div>
     );
 };

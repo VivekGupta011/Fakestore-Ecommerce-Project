@@ -6,6 +6,7 @@ import Register from "./Regitster";
 import { setAuthentication } from './../../store/ExtraReducer';
 import { useDispatch } from 'react-redux';
 // import Loader from './../Loader/Loader';
+import { Footer } from "../Footer";
 import axios from 'axios';
 
 const Login = () => {
@@ -86,6 +87,7 @@ const Login = () => {
                 // ) */}
                 {/* } */}
             </div>
+            <Footer/>
         </div>
     );
 };
