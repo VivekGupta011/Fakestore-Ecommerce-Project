@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+
+input {
+    height: 45px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+/* a{ */
+    
+
+/* button {
+    width: 200px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+} */
+
+.login__container,
+.signup__container,
+.verify,
+.dashboard {
+    width: 100%;
+    min-height: 60vh;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__form,
+.verify__form,
+.signup__form {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.loginBtn, .signupBtn, .codeBtn {
+    background-color: rgb(74, 97, 238);
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px 5px;
+    margin-bottom: 15px;
+}
+.back {
+    display: flex;
+    justify-content: start;
+    padding: 5px 0px;
+}
+
+.signOutBtn {
+    background-color: #c21010;
+    color: #fff;
+}
+
+.link {
+    cursor: pointer;
+    color:rgb(74, 97, 238);
+}
+
+.code {
+    width: 50%;
+    text-align: center;
+}
+
+.verify__form {
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+
+    .login__container,
+    .signup__container,
+    .verify {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .login__form, .verify__form, .signup__form {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+
+    .login__form,
+    .verify__form,
+    .signup__form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        height: 40px;
+        padding: 0px 10px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+    }
+
+    .loginBtn, .signupBtn, .codeBtn {
+        background-color: rgb(74, 97, 238);
+        color: #fff;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        padding: 6px 5px;
+    }
+
+}
