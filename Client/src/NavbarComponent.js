@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useDispatch } from 'react-redux';
 import { logout } from './store/ExtraReducer';
 import cart from './image/cart.png';
+import Footer from "../src/component/Footer.js";
 import { useSelector } from 'react-redux';
 
 function NavbarComponent({Count,Total}) {
@@ -29,6 +30,7 @@ function NavbarComponent({Count,Total}) {
                     </Nav>
                 </Container>
             </Navbar>
+            <Footer/>
         </div>
     )
 }
